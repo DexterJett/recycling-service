@@ -1,0 +1,112 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+/test-results
+/.nyc_output
+/cypress/videos
+/cypress/screenshots
+
+# production
+/build
+/dist
+/out
+
+# misc
+.env
+.env.*
+*.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log
+logs
+*.log
+
+# editor files
+.idea/
+.vscode/
+*.sublime-*
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+.settings/
+*.code-workspace
+
+# powershell specific
+*.ps1.log
+*.psm1.log
+*.psd1.log
+*.psproj
+PowerShell/*.txt
+
+# temporary files
+*.tmp
+*.temp
+.cache/
+.temp/
+.tmp/
+tmp/
+temp/
+
+# package manager
+yarn.lock
+package-lock.json
+.yarn-integrity
+.npm
+
+# certificates and keys
+*.pem
+*.key
+*.cert
+*.crt
+*.csr
+*.p12
+*.pfx
+
+# personal configuration files
+.npmrc
+.yarnrc
+.prettierrc.local
+.eslintrc.local
+
+# build system specific
+.webpack/
+.next/
+.nuxt/
+.vuepress/dist
+.serverless/
+
+# backup files
+*.bak
+*.backup
+*~
+
+# operating system
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# optional but recommended
+.eslintcache
+.stylelintcache
+.history/
